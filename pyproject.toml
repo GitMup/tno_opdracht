@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patriot"
+dynamic = ["version"]
+readme = "README.md"
+classifiers = [
+    "Private :: Do Not Upload"
+]
+
+[tool.setuptools.packages.find]
+include = ["patriot*"]
